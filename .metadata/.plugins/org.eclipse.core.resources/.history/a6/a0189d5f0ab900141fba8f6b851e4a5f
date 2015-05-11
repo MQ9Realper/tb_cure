@@ -1,0 +1,54 @@
+package com.med.salma;
+
+import android.app.TabActivity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.widget.TabHost;
+import android.widget.TabHost.TabSpec;
+import android.widget.TextView;
+
+@SuppressWarnings("deprecation")
+public class DoctorReportsActivity extends TabActivity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_doctor_reports);
+		final TextView doctor = (TextView) findViewById(R.id.textView1);
+
+		// Passing extra data from Signin
+		if (getIntent() != null) {
+			// Passing Extra Data from Signup
+			if(getIntent() != null){
+				Bundle extras = getIntent().getExtras();
+				
+				if(extras.containsKey("Doctor Username")){
+					doctor.setText(" Welcome "+ extras.getString("Doctor Username").toString());
+				}
+				else
+					if(extras.containsKey("Welcome Doctor")){
+						doctor.setText("Welcome " + extras.getString("Welcome Doctor"));
+					}
+					
+			}
+
+		// Initializing the Tab widget
+		TabHost tabHost = (TabHost) findViewById(android.R.id.tabhost);
+
+		TabSpec videoReportSpec = tabHost.newTabSpec("Video Reports");
+		TabSpec adherenceReportSpec = tabHost
+				.newTabSpec("Non-Adherence Reports");
+
+		videoReportSpec.setIndicator("Video Reports");
+		videoReportSpec
+				.setContent(new Intent(this, VideoReportsActivity.class));
+
+		adherenceReportSpec.setIndicator("Non-Adherence Reports");
+		adherenceReportSpec.setContent(new Intent(this,
+				NonAdherenceReportsActivity.class));
+
+		tabHost.addTab(videoReportSpec);
+		tabHost.addTab(adherenceReportSpec);
+	}
+
+}

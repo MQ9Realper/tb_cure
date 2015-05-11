@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Salma</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.android.ide.eclipse.adt.ResourceManagerBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.android.ide.eclipse.adt.PreCompilerBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.android.ide.eclipse.adt.ApkBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.android.ide.eclipse.adt.AndroidNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>res/drawable-hdpi/banner.png</name>
+			<type>1</type>
+			<location>/home/guidovanrossum/Desktop/Salma&apos;s Project/banner.png</location>
+		</link>
+		<link>
+			<name>res/drawable-hdpi/details.png</name>
+			<type>1</type>
+			<location>/home/guidovanrossum/Desktop/Salma&apos;s Project/details.png</location>
+		</link>
+		<link>
+			<name>res/drawable-hdpi/ic_background.png</name>
+			<type>1</type>
+			<location>/home/guidovanrossum/Pictures/Subtle-Dark-Patterns-vol03-PIXEDEN/dark-blackboard.png</location>
+		</link>
+		<link>
+			<name>res/drawable-hdpi/user.png</name>
+			<type>1</type>
+			<location>/home/guidovanrossum/Desktop/Salma&apos;s Project/user.png</location>
+		</link>
+	</linkedResources>
+</projectDescription>

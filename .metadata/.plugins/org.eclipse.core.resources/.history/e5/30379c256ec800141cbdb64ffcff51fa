@@ -1,0 +1,259 @@
+package salma;
+
+import com.med.salma.R;
+
+import database.SalmaDatabaseAdapter;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.DatePickerDialog;
+import android.app.TimePickerDialog;
+import android.content.DialogInterface;
+import android.os.Bundle;
+import android.os.SystemClock;
+import android.provider.Settings.System;
+import android.view.View;
+import android.widget.DatePicker;
+import android.widget.EditText;
+import android.widget.TimePicker;
+import android.widget.Toast;
+
+public class NewReminderActivity extends Activity {
+	EditText txtMedicineName;
+	EditText txtMedInstructions;
+	EditText txtDrugType;
+	EditText txtFrequency;
+	EditText txtSetTime;
+	EditText txtStartDate;
+	EditText txtEndDate;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_new_reminder);
+		startReminder();
+
+		// Get Reference of the widgets
+		txtMedicineName = (EditText) findViewById(R.id.txtMedicineName);
+		txtMedInstructions = (EditText) findViewById(R.id.txtMedInstructions);
+		txtDrugType = (EditText) findViewById(R.id.txtDrugType);
+		txtFrequency = (EditText) findViewById(R.id.txtDrugFrequency);
+		txtSetTime = (EditText) findViewById(R.id.txtSetTime);
+		txtStartDate = (EditText) findViewById(R.id.txtStartDate);
+		txtEndDate = (EditText) findViewById(R.id.txtEndDate);
+
+	}
+
+	// Reset Reminder
+	public void resetReminder() {
+		txtMedicineName.setText("");
+		txtMedInstructions.setText("");
+		txtDrugType.setText("");
+		txtSetTime.setText("");
+		txtFrequency.setText("");
+		txtStartDate.setText("");
+		txtEndDate.setText("");
+	}
+
+	// Add New Reminder
+	public void addNewReminder(View view) {
+		String med = txtMedicineName.getText().toString();
+		String medIns = txtMedInstructions.getText().toString();
+		String drugType = txtDrugType.getText().toString();
+		String frequency = txtFrequency.getText().toString();
+		String set_time = txtSetTime.getText().toString();
+		String start_date = txtStartDate.getText().toString();
+		String end_date = txtEndDate.getText().toString();
+
+		try {
+
+			SalmaDatabaseAdapter sdb = new SalmaDatabaseAdapter(this);
+			sdb.addReminder(med, medIns, drugType, frequency, set_time,
+					start_date, end_date);
+			Toast.makeText(getApplicationContext(),
+					"Reminder To Take " + med + " Has Been Set!",
+					Toast.LENGTH_LONG).show();
+			resetReminder();
+
+		} catch (Exception exception) {
+			AlertDialog.Builder error = new AlertDialog.Builder(
+					getApplicationContext());
+			error.setTitle("Signin Error");
+			error.setIcon(R.drawable.ic_launcher);
+			error.setMessage(exception.getMessage().toString());
+			AlertDialog alert = error.create();
+			alert.show();
+		}
+
+	}
+	
+	public void startReminder(){
+		Calendar cal = Calendar.getInstance();
+		cal.setTimeInMillis(java.lang.System.currentTimeMillis());
+		cal.set(Calendar.HOUR_OF_DAY,7);
+		cal.set(Calendar.MINUTE,11);
+		ReminderManager rem = new ReminderManager(this);
+		rem.setReminder(cal);
+	}
+
+	// Drug Intake Frequency Method
+	public void setTimesPerDay(View view) {
+		final CharSequence[] items = { "1 Time/Day", "2 Times/Day",
+				"3 Times/Day", "4 Times/Day", "5 Times/Day" };
+		AlertDialog.Builder alertDialog = new AlertDialog.Builder(getParent());
+		alertDialog.setTitle("Frequency of drug intake");
+		alertDialog.setIcon(R.drawable.ic_launcher);
+		alertDialog.setSingleChoiceItems(items, 0,
+				new DialogInterface.OnClickListener() {
+
+					@Override
+					public void onClick(DialogInterface dialog, int which) {
+						// TODO Auto-generated method stub
+						txtFrequency.setText(items[which]);
+
+					}
+				});
+		alertDialog.setPositiveButton("OK",
+				new DialogInterface.OnClickListener() {
+
+					@Override
+					public void onClick(DialogInterface dialog, int which) {
+						// TODO Auto-generated method stub
+
+					}
+				});
+		alertDialog.setNegativeButton("Cancel",
+				new DialogInterface.OnClickListener() {
+
+					@Override
+					public void onClick(DialogInterface dialog, int which) {
+						// TODO Auto-generated method stub
+
+					}
+				});
+
+		AlertDialog builder = alertDialog.create();
+		builder.show();
+
+	}
+
+	// Set Time Method
+	public void setTime(View view) {
+		final Calendar calendar = Calendar.getInstance();
+		int hour = calendar.get(Calendar.HOUR_OF_DAY);
+		int minute = calendar.get(Calendar.MINUTE);
+
+		TimePickerDialog timePicker = new TimePickerDialog(this,
+				new TimePickerDialog.OnTimeSetListener() {
+
+					@Override
+					public void onTimeSet(TimePicker view, int hourOfDay,
+							int minute) {
+						// TODO Auto-generated method stub
+						txtSetTime.setText(hourOfDay + ":" + minute);
+
+					}
+				}, hour, minute, false);
+		timePicker.setTitle("Set Time");
+		timePicker.setIcon(R.drawable.ic_launcher);
+		timePicker.show();
+
+	}
+
+	// Start Date Method
+	public void startDate(View view) {
+		final Calendar calendar = Calendar.getInstance();
+		int year = calendar.get(Calendar.YEAR);
+		int month = calendar.get(Calendar.MONTH);
+		int day = calendar.get(Calendar.DAY_OF_YEAR);
+
+		DatePickerDialog datePicker = new DatePickerDialog(this,
+				new DatePickerDialog.OnDateSetListener() {
+
+					@Override
+					public void onDateSet(DatePicker view, int year,
+							int monthOfYear, int dayOfMonth) {
+						// TODO Auto-generated method stub
+						txtStartDate.setText(dayOfMonth + "/"
+								+ (monthOfYear + 1) + "/" + year);
+
+					}
+				}, day, month, year);
+		datePicker.setTitle("Set Start Date");
+		datePicker.setIcon(R.drawable.ic_launcher);
+		datePicker.show();
+
+	}
+
+	// End Date Method
+	public void endDate(View view) {
+
+		final Calendar calendar = Calendar.getInstance();
+		int year = calendar.get(Calendar.YEAR);
+		int month = calendar.get(Calendar.MONTH);
+		int day = calendar.get(Calendar.DAY_OF_YEAR);
+
+		DatePickerDialog datePicker = new DatePickerDialog(this,
+				new DatePickerDialog.OnDateSetListener() {
+
+					@Override
+					public void onDateSet(DatePicker view, int year,
+							int monthOfYear, int dayOfMonth) {
+						// TODO Auto-generated method stub
+						txtEndDate.setText(dayOfMonth + "/" + (monthOfYear + 1)
+								+ "/" + year);
+
+					}
+				}, day, month, year);
+		datePicker.setTitle("Set End Date");
+		datePicker.setIcon(R.drawable.ic_launcher);
+		datePicker.show();
+
+	}
+
+	// Method for choosing type of drug
+	public void chooseDrug(View view) {
+		final CharSequence[] drugTypes = { "Tablets", "Injection" };
+
+		AlertDialog.Builder chooseDrug = new AlertDialog.Builder(this);
+		chooseDrug.setIcon(R.drawable.ic_launcher);
+		chooseDrug.setTitle("Drug Types");
+		chooseDrug.setSingleChoiceItems(drugTypes, 0,
+				new DialogInterface.OnClickListener() {
+
+					@Override
+					public void onClick(DialogInterface dialog, int which) {
+						// TODO Auto-generated method stub
+						txtDrugType.setText(drugTypes[which]);
+
+					}
+				});
+		chooseDrug.setNegativeButton("OK",
+				new DialogInterface.OnClickListener() {
+
+					@Override
+					public void onClick(DialogInterface dialog, int which) {
+						// TODO Auto-generated method stub
+
+					}
+				});
+
+		chooseDrug.setPositiveButton("Cancel",
+				new DialogInterface.OnClickListener() {
+
+					@Override
+					public void onClick(DialogInterface dialog, int which) {
+						// TODO Auto-generated method stub
+
+					}
+				});
+
+		AlertDialog drugDialog = chooseDrug.create();
+		drugDialog.show();
+
+	}
+
+}

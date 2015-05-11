@@ -1,0 +1,40 @@
+package com.med.salma;
+
+import com.med.salma.database.RemindersTable;
+import com.med.salma.database.SalmaDatabaseAdapter;
+
+import android.app.Activity;
+import android.database.Cursor;
+import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.ListAdapter;
+import android.widget.ListView;
+import android.widget.SimpleCursorAdapter;
+
+public class ReminderListActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_reminder_list);
+		populateReminderList();
+
+	}
+
+	public void populateReminderList() {
+		final ListView list = (ListView) findViewById(R.id.reminderList);
+		SalmaDatabaseAdapter salmaDB = new SalmaDatabaseAdapter(
+				ReminderListActivity.this);
+		Cursor cursor = salmaDB.listReminderNames();
+		String[] source = new String[] { RemindersTable.REMINDER_ID,
+				RemindersTable.REMINDER_MEDICINE_NAME };
+		int[] destination = new int[] { R.id.txtReminderName, R.id.txtReminderName2};
+
+		@SuppressWarnings("deprecation")
+		ListAdapter adapter = new SimpleCursorAdapter(
+				ReminderListActivity.this, R.layout.reminder_list_text,
+				cursor, source, destination);
+		list.setAdapter(adapter);
+	}
+
+}

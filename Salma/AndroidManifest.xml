@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.med.salma"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PatientSignupActivity"
+            android:label="@string/title_activity_signup"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".DoctorSignupActivity"
+            android:label="@string/title_activity_doctor_signup"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".PatientPhoto"
+            android:label="@string/title_activity_patient_photo" >
+        </activity>
+        <activity
+            android:name=".PatientBioInfo"
+            android:label="@string/title_activity_patient_bio_info" >
+        </activity>
+        <activity
+            android:name=".PatientPhotoActivity"
+            android:label="@string/title_activity_patient_photo" >
+        </activity>
+        <activity
+            android:name=".PatientInfoActivity"
+            android:label="@string/title_activity_patient_info" >
+        </activity>
+        <activity
+            android:name=".DoctorsListActivity"
+            android:label="@string/title_activity_doctor_photo"
+            android:parentActivityName=".DoctorReportsActivity" >
+        </activity>
+        <activity
+            android:name=".DoctorBioInfoActivity"
+            android:label="@string/title_activity_doctor_bio_info" >
+        </activity>
+        <activity
+            android:name=".ReminderActivity"
+            android:label="@string/title_activity_reminder"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".NewReminderActivity"
+            android:label="@string/title_activity_new_reminder" >
+        </activity>
+        <activity
+            android:name=".ReminderListActivity"
+            android:label="@string/title_activity_reminder_list" >
+        </activity>
+        <activity
+            android:name=".DoctorReportsActivity"
+            android:label="@string/title_activity_doctor_reports"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.med.salma.MainActivity" />
+        </activity>
+        <activity
+            android:name=".VideoReportsActivity"
+            android:label="@string/title_activity_video_reports" >
+        </activity>
+        <activity
+            android:name=".NonAdherenceReportsActivity"
+            android:label="@string/title_activity_non_adherence_reports"
+            android:parentActivityName=".ReminderActivity" >
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:logo="@android:drawable/ic_menu_info_details"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.med.salma.MainActivity" />
+        </activity>
+        <activity
+            android:name=".NoteMessageActivity"
+            android:label="@string/title_activity_note_message" >
+        </activity>
+        <activity
+            android:name=".VideoActivity"
+            android:label="@string/title_activity_video" >
+        </activity>
+
+        <service android:name=".service.ScheduleService" />
+        <service android:name=".service.NotifyService" />
+
+        <activity
+            android:name=".VideoCaptureActivity"
+            android:label="@string/title_activity_video_capture"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".AdherenceReportsActivity"
+            android:label="@string/title_activity_adherence_reports"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.med.salma.MainActivity" />
+        </activity>
+
+        <service
+            android:name=".RefillAlarmService"
+            android:enabled="true" />
+
+        <receiver android:name=".RefillAlarmReceiver" />
+        
+        <service
+            android:name=".AlarmService"
+            android:enabled="true" />
+
+        <receiver android:name=".AlarmReceiver" />
+
+        <activity
+            android:name=".NonAdherenceReportsListActivity"
+            android:label="@string/title_activity_alarm_display"
+            android:parentActivityName=".ReminderActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.med.salma.MainActivity" />
+        </activity>
+        <activity
+            android:name=".VideoViewActivity"
+            android:label="@string/title_activity_video_view"
+            android:parentActivityName=".DoctorReportsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.med.salma.DoctorReportsActivity" />
+        </activity>
+        <activity
+            android:name=".MedicineRefillsActivity"
+            android:label="@string/title_activity_medicine_refills"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.med.salma.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

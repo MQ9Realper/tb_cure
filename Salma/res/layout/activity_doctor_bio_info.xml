@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#2f4f2f"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <EditText
+        android:id="@+id/txtDoctorFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/first_name"
+        android:inputType="textPersonName"
+        android:textColor="#ffffff"
+        android:textColorHint="#a8a8a8"
+        android:textSize="7pt"
+        android:textStyle="normal" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtDoctorSecondName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/second_name"
+        android:inputType="textPersonName"
+        android:textColor="#ffffff"
+        android:textColorHint="#a8a8a8"
+        android:textSize="7pt"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/txtDoctorPractice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/doctor_practice"
+        android:inputType="text"
+        android:textColor="#ffffff"
+        android:textColorHint="#a8a8a8"
+        android:textSize="7pt"
+        android:textStyle="normal" />
+    
+    <RadioGroup 
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton 
+            android:id="@+id/radioMaleDoctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male"
+            android:textSize="7pt"
+            android:textColor="#ffffff"/>
+        
+        <RadioButton 
+            android:id="@+id/radioFemaleDoctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female"
+            android:textSize="7pt"
+            android:textColor="#ffffff"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/txtDoctorUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:textColor="#ffffff"
+        android:textColorHint="#a8a8a8"
+        android:textSize="7pt"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/txtDoctorEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/email_address"
+        android:inputType="textEmailAddress"
+        android:textColor="#ffffff"
+        android:textColorHint="#a8a8a8"
+        android:textSize="7pt"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/txtDoctorPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"
+        android:textColorHint="#a8a8a8"
+        android:textSize="7pt"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/txtDoctorConfirmPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"
+        android:textColorHint="#a8a8a8"
+        android:textSize="7pt"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/btnDoctorSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:text="@android:string/ok"
+        android:textColor="#2f4f2f"
+        android:textStyle="bold"
+        android:onClick="addDoctor" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:text="@android:string/cancel"
+        android:textColor="#2f4f2f"
+        android:textStyle="bold"/>
+
+</LinearLayout>

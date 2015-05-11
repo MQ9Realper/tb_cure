@@ -1,0 +1,148 @@
+package com.med.salma;
+
+import java.util.ArrayList;
+import java.util.Calendar;
+
+import android.app.Activity;
+import android.app.AlertDialog.Builder;
+import android.app.DatePickerDialog;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.DatePicker;
+import android.widget.EditText;
+import android.widget.TimePicker;
+import android.app.AlertDialog;
+import android.app.TimePickerDialog;
+import android.content.DialogInterface;
+
+public class NewReminderActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_new_reminder);
+
+	}
+
+	// Drug Intake Frequency Method
+	public void setTimesPerDay(View view) {
+		final EditText txtDrugFrequency = (EditText) findViewById(R.id.txtDrugFrequency);
+		final CharSequence[] items = { "1 Time/Day", "2 Times/Day",
+				"3 Times/Day", "4 Times/Day", "5 Times/Day" };
+		AlertDialog.Builder alertDialog = new AlertDialog.Builder(getParent());
+		alertDialog.setTitle("Frequency of drug intake");
+		alertDialog.setIcon(R.drawable.ic_launcher);
+		alertDialog.setSingleChoiceItems(items, 0,
+				new DialogInterface.OnClickListener() {
+
+					@Override
+					public void onClick(DialogInterface dialog, int which) {
+						// TODO Auto-generated method stub
+						txtDrugFrequency.setText(items[which]);
+
+					}
+				});
+		alertDialog.setPositiveButton("OK",
+				new DialogInterface.OnClickListener() {
+
+					@Override
+					public void onClick(DialogInterface dialog, int which) {
+						// TODO Auto-generated method stub
+
+					}
+				});
+		alertDialog.setNegativeButton("Cancel",
+				new DialogInterface.OnClickListener() {
+
+					@Override
+					public void onClick(DialogInterface dialog, int which) {
+						// TODO Auto-generated method stub
+
+					}
+				});
+
+		AlertDialog builder = alertDialog.create();
+		builder.show();
+
+	}
+
+	// Set Time Method
+	public void setTime(View view) {
+		final Calendar calendar = Calendar.getInstance();
+		int hour = calendar.get(Calendar.HOUR_OF_DAY);
+		int minute = calendar.get(Calendar.MINUTE);
+
+		final EditText txtSetTime = (EditText) findViewById(R.id.txtSetTime);
+		TimePickerDialog timePicker = new TimePickerDialog(this,
+				new TimePickerDialog.OnTimeSetListener() {
+
+					@Override
+					public void onTimeSet(TimePicker view, int hourOfDay,
+							int minute) {
+						// TODO Auto-generated method stub
+						txtSetTime.setText(hourOfDay + ":" + minute);
+
+					}
+				}, hour, minute, false);
+		timePicker.setTitle("Set Time");
+		timePicker.setIcon(R.drawable.ic_launcher);
+		timePicker.show();
+
+	}
+
+	// Start Date Method
+	public void startDate(View view) {
+		final Calendar calendar = Calendar.getInstance();
+		int year = calendar.get(Calendar.YEAR);
+		int month = calendar.get(Calendar.MONTH);
+		int day = calendar.get(Calendar.DAY_OF_YEAR);
+
+		final EditText txtStartDate = (EditText) findViewById(R.id.txtStartDate);
+		DatePickerDialog datePicker = new DatePickerDialog(this,
+				new DatePickerDialog.OnDateSetListener() {
+
+					@Override
+					public void onDateSet(DatePicker view, int year,
+							int monthOfYear, int dayOfMonth) {
+						// TODO Auto-generated method stub
+						txtStartDate.setText(dayOfMonth + "/"
+								+ (monthOfYear + 1) + "/" + year);
+
+					}
+				}, day, month, year);
+		datePicker.setTitle("Set Start Date");
+		datePicker.setIcon(R.drawable.ic_launcher);
+		datePicker.show();
+
+	}
+
+	// End Date Method
+	public void endDate(View view) {
+
+		final Calendar calendar = Calendar.getInstance();
+		int year = calendar.get(Calendar.YEAR);
+		int month = calendar.get(Calendar.MONTH);
+		int day = calendar.get(Calendar.DAY_OF_YEAR);
+
+		final EditText txtEndDate = (EditText) findViewById(R.id.txtEndDate);
+		DatePickerDialog datePicker = new DatePickerDialog(this,
+				new DatePickerDialog.OnDateSetListener() {
+
+					@Override
+					public void onDateSet(DatePicker view, int year,
+							int monthOfYear, int dayOfMonth) {
+						// TODO Auto-generated method stub
+						txtEndDate.setText(dayOfMonth + "/"
+								+ (monthOfYear + 1) + "/" + year);
+
+					}
+				}, day, month, year);
+		datePicker.setTitle("Set End Date");
+		datePicker.setIcon(R.drawable.ic_launcher);
+		datePicker.show();
+
+	}
+
+}

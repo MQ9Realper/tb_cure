@@ -1,0 +1,40 @@
+package com.med.salma;
+
+import com.med.salma.R;
+
+import android.app.ActionBar;
+import android.app.TabActivity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.widget.TabHost;
+import android.widget.TabHost.TabSpec;
+
+@SuppressWarnings("deprecation")
+public class PatientSignupActivity extends TabActivity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_signup);
+		
+		TabHost tabhost = (TabHost)findViewById(android.R.id.tabhost);
+		
+		TabSpec photoSpec = tabhost.newTabSpec("Patient Photo");
+		TabSpec dataSpec = tabhost.newTabSpec("Patient BioInfo");
+		
+		photoSpec.setIndicator("Patient Photo");
+		photoSpec.setContent(new Intent(this, PatientPhotoActivity.class));
+		
+		dataSpec.setIndicator("Patient BioInfo");
+		dataSpec.setContent(new Intent(this, PatientInfoActivity.class));
+		
+		tabhost.addTab(photoSpec);
+		tabhost.addTab(dataSpec);
+		
+		// ActionBar tweaks
+		ActionBar actionBar = getActionBar();
+		actionBar.setDisplayHomeAsUpEnabled(true);
+	}
+
+	
+}

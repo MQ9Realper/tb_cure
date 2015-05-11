@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="InflateParams" severity="ignore" />
+    <issue id="SimpleDateFormat">
+        <ignore path="src/com/med/salma/MedicineRefillsActivity.java" />
+        <ignore path="src/com/med/salma/NewReminderActivity.java" />
+    </issue>
+</lint>

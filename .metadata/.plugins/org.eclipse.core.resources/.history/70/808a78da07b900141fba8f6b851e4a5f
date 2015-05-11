@@ -1,0 +1,59 @@
+package com.med.salma;
+
+import android.annotation.SuppressLint;
+import android.app.TabActivity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.Menu;
+import android.widget.TabHost;
+import android.widget.TabHost.TabSpec;
+import android.widget.TextView;
+
+@SuppressLint("DefaultLocale")
+@SuppressWarnings("deprecation")
+public class ReminderActivity extends TabActivity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_reminder);
+		final TextView patient = (TextView)findViewById(R.id.textViewPatients);
+		
+		// Passing Extra Data from Signup
+		if(getIntent() != null){
+			Bundle extras = getIntent().getExtras();
+			String patientName = extras.getString("Welcome Patient"); 
+			  
+			  patient.setText("Welcome " + patientName);
+		}
+		
+//		// Passing Extra data from Signin
+//		if(getIntent() != null){
+//			Bundle extras = getIntent().getExtras();
+//			String patientUserName = extras.getString("Patient Username"); 
+//			  
+//			  patient.setText("Welcome " + patientUserName.toUpperCase());
+//		}
+		
+		TabHost tabHost = (TabHost)findViewById(android.R.id.tabhost);
+		
+		TabSpec newReminderSpec = tabHost.newTabSpec("New Reminder");
+		TabSpec reminderList = tabHost.newTabSpec("Reminder List");
+		
+		newReminderSpec.setIndicator("New Reminder");
+		newReminderSpec.setContent(new Intent(this, NewReminderActivity.class));
+		
+		reminderList.setIndicator("Reminder List");
+		reminderList.setContent(new Intent(this, ReminderListActivity.class));
+		
+		tabHost.addTab(newReminderSpec);
+		tabHost.addTab(reminderList);
+	}
+	
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+	
+	return true;
+	}
+
+}

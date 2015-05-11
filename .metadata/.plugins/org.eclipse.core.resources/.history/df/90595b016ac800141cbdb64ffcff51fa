@@ -1,0 +1,33 @@
+package salma;
+
+import java.util.Calendar;
+import java.util.Date;
+
+import database.RemindersTable;
+
+import android.app.AlarmManager;
+import android.app.PendingIntent;
+import android.content.Context;
+import android.content.Intent;
+import android.text.format.Time;
+
+public class ReminderManager {
+	private Context reminderContext;
+	private AlarmManager alarmManager;
+	
+	public ReminderManager(Context context){
+		reminderContext = context;
+		alarmManager = (AlarmManager)context.getSystemService(Context.ALARM_SERVICE);
+		
+	}
+	
+	public void setReminder(Long task, Date time, Time times){
+		Intent alarmIntent = new Intent(reminderContext, OnAlarmReceiver.class);
+		alarmIntent.putExtra(RemindersTable.REMINDER_ID, task);
+		PendingIntent pendingIntent = PendingIntent.getBroadcast(reminderContext, 0, alarmIntent, PendingIntent.FLAG_ONE_SHOT);
+		alarmManager.set(AlarmManager.RTC_WAKEUP, times.toMillis(true), pendingIntent);
+	}
+	
+	
+
+}

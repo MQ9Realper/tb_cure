@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="14" version="2.0">
+<workbenchAdvisor/>
+<window height="742" maximized="true" width="1024" x="0" y="26">
+<fastViewData fastViewLocation="1024">
+<orientation position="512" view="com.android.ide.eclipse.ddms.views.LogCatView"/>
+<orientation position="512" view="org.eclipse.ui.console.ConsoleView"/>
+</fastViewData>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="134" y="30"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="adt.actionSet.avdManager" itemType="typeToolBarContribution" x="64" y="30"/>
+<coolItem id="com.android.ide.eclipse.editors.CommonXmlEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="144" y="30"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="82" y="30"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="116" y="30"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="214" y="30"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1420534589454" focus="true" label="Workspace - DDMS">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MedicineRefillsActivity.java" partName="MedicineRefillsActivity.java" path="/home/guidovanrossum/Desktop/Salma&apos;s Project/Salma/src/com/med/salma/MedicineRefillsActivity.java" title="MedicineRefillsActivity.java" tooltip="Salma/src/com/med/salma/MedicineRefillsActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Salma/src/com/med/salma/MedicineRefillsActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4795" selectionTopPixel="1882"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NewReminderActivity.java" partName="NewReminderActivity.java" path="/home/guidovanrossum/Desktop/Salma&apos;s Project/Salma/src/com/med/salma/NewReminderActivity.java" title="NewReminderActivity.java" tooltip="Salma/src/com/med/salma/NewReminderActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Salma/src/com/med/salma/NewReminderActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1934"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ReminderActivity.java" partName="ReminderActivity.java" path="/home/guidovanrossum/Desktop/Salma&apos;s Project/Salma/src/com/med/salma/ReminderActivity.java" title="ReminderActivity.java" tooltip="Salma/src/com/med/salma/ReminderActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Salma/src/com/med/salma/ReminderActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="863" selectionTopPixel="0"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="refills_rows.xml" partName="refills_rows.xml" path="/home/guidovanrossum/Desktop/Salma&apos;s Project/Salma/res/layout/refills_rows.xml" title="refills_rows.xml" tooltip="Salma/res/layout/refills_rows.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Salma/res/layout/refills_rows.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DoctorsListActivity.java" partName="DoctorsListActivity.java" path="/home/guidovanrossum/Desktop/Salma&apos;s Project/Salma/src/com/med/salma/DoctorsListActivity.java" title="DoctorsListActivity.java" tooltip="Salma/src/com/med/salma/DoctorsListActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Salma/src/com/med/salma/DoctorsListActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1590" selectionTopPixel="115"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SalmaDatabaseAdapter.java" partName="SalmaDatabaseAdapter.java" path="/home/guidovanrossum/Desktop/Salma&apos;s Project/Salma/src/com/med/salma/SalmaDatabaseAdapter.java" title="SalmaDatabaseAdapter.java" tooltip="Salma/src/com/med/salma/SalmaDatabaseAdapter.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Salma/src/com/med/salma/SalmaDatabaseAdapter.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="11076" selectionTopPixel="4518"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Table_AdherenceTable.java" partName="Table_AdherenceTable.java" path="/home/guidovanrossum/Desktop/Salma&apos;s Project/Salma/src/com/med/salma/Table_AdherenceTable.java" title="Table_AdherenceTable.java" tooltip="Salma/src/com/med/salma/Table_AdherenceTable.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Salma/src/com/med/salma/Table_AdherenceTable.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Table_RefillTable.java" partName="Table_RefillTable.java" path="/home/guidovanrossum/Desktop/Salma&apos;s Project/Salma/src/com/med/salma/Table_RefillTable.java" title="Table_RefillTable.java" tooltip="Salma/src/com/med/salma/Table_RefillTable.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Salma/src/com/med/salma/Table_RefillTable.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="287" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RefillAlarmService.java" partName="RefillAlarmService.java" path="/home/guidovanrossum/Desktop/Salma&apos;s Project/Salma/src/com/med/salma/RefillAlarmService.java" title="RefillAlarmService.java" tooltip="Salma/src/com/med/salma/RefillAlarmService.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Salma/src/com/med/salma/RefillAlarmService.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1335" selectionTopPixel="319"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VideoCaptureActivity.java" partName="VideoCaptureActivity.java" path="/home/guidovanrossum/Desktop/Salma&apos;s Project/Salma/src/com/med/salma/VideoCaptureActivity.java" title="VideoCaptureActivity.java" tooltip="Salma/src/com/med/salma/VideoCaptureActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Salma/src/com/med/salma/VideoCaptureActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3163" selectionTopPixel="965"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VideoFilesAdapter.java" partName="VideoFilesAdapter.java" path="/home/guidovanrossum/Desktop/Salma&apos;s Project/Salma/src/com/med/salma/VideoFilesAdapter.java" title="VideoFilesAdapter.java" tooltip="Salma/src/com/med/salma/VideoFilesAdapter.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Salma/src/com/med/salma/VideoFilesAdapter.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="921" selectionTopPixel="251"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VideoReportsActivity.java" partName="VideoReportsActivity.java" path="/home/guidovanrossum/Desktop/Salma&apos;s Project/Salma/src/com/med/salma/VideoReportsActivity.java" title="VideoReportsActivity.java" tooltip="Salma/src/com/med/salma/VideoReportsActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Salma/src/com/med/salma/VideoReportsActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1500" selectionTopPixel="459"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_medicine_refills.xml" partName="activity_medicine_refills.xml" path="/home/guidovanrossum/Desktop/Salma&apos;s Project/Salma/res/layout/activity_medicine_refills.xml" title="activity_medicine_refills.xml" tooltip="Salma/res/layout/activity_medicine_refills.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Salma/res/layout/activity_medicine_refills.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="button_background.xml" partName="button_background.xml" path="/home/guidovanrossum/Desktop/Salma&apos;s Project/Salma/res/drawable-hdpi/button_background.xml" title="button_background.xml" tooltip="Salma/res/drawable-hdpi/button_background.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Salma/res/drawable-hdpi/button_background.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="save_background.xml" partName="save_background.xml" path="/home/guidovanrossum/Desktop/Salma&apos;s Project/Salma/res/drawable-hdpi/save_background.xml" title="save_background.xml" tooltip="Salma/res/drawable-hdpi/save_background.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Salma/res/drawable-hdpi/save_background.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AlarmService.java" partName="AlarmService.java" path="/home/guidovanrossum/Desktop/Salma&apos;s Project/Salma/src/com/med/salma/AlarmService.java" title="AlarmService.java" tooltip="Salma/src/com/med/salma/AlarmService.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Salma/src/com/med/salma/AlarmService.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1440" selectionTopPixel="206"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VideoViewActivity.java" partName="VideoViewActivity.java" path="/home/guidovanrossum/Desktop/Salma&apos;s Project/Salma/src/com/med/salma/VideoViewActivity.java" title="VideoViewActivity.java" tooltip="Salma/src/com/med/salma/VideoViewActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Salma/src/com/med/salma/VideoViewActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="540" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="com.android.ide.eclipse.ddms.views.HeapView" partName="Heap"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="1" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="com.android.ide.eclipse.ddms.views.LogCatView" partName="LogCat">
+<viewState/>
+</view>
+<view id="com.android.ide.eclipse.ddms.views.FileExplorerView" partName="File Explorer">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator">
+<viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
+<filters>
+<filter element=".*" isEnabled="false"/>
+<filter element="*.class" isEnabled="false"/>
+</filters>
+<expanded>
+<element path="/Salma"/>
+<element path="/Salma/res"/>
+<element path="/Salma/res/drawable-hdpi"/>
+<element path="/Salma/res/layout"/>
+<element path="/Salma/src"/>
+<element path="/Salma/src/com"/>
+<element path="/Salma/src/com/med"/>
+<element path="/Salma/src/com/med/salma"/>
+</expanded>
+<selection>
+<element path="/Salma/lint.xml"/>
+</selection>
+</viewState>
+</view>
+<view id="com.android.ide.eclipse.ddms.views.NetworkStatsView" partName="Network Statistics"/>
+<view id="com.android.ide.eclipse.ddms.views.ThreadView" partName="Threads">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="com.android.ide.eclipse.ddms.views.SysInfoView" partName="System Information">
+<viewState/>
+</view>
+<view id="com.android.ide.eclipse.ddms.views.AllocTrackerView" partName="Allocation Tracker"/>
+</views>
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="com.android.ide.eclipse.ddms.Perspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="adt.actionSet.avdManager"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<perspective_action id="com.android.ide.eclipse.ddms.Perspective"/>
+<perspective_action id="org.eclipse.cdt.ui.CPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.team.cvs.ui.cvsPerspective"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<perspective_action id="org.eclipse.wst.xml.ui.perspective"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<fastViews>&#x0A;<view id="org.eclipse.ui.console.ConsoleView" ratio="0.50980395"/>
+</fastViews>
+<fastViewBars>&#x0A;<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@79d8806" orientation="512" selectedTabId="org.eclipse.jdt.ui.TypeHierarchy" style="0">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.jdt.ui.TypeHierarchy" ratio="0.2993967"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="1024" id="bottomRight" orientation="256" selectedTabId="org.eclipse.ui.views.TaskList" style="0">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.views.TaskList" ratio="0.3"/>
+<view id="org.eclipse.pde.runtime.LogView" ratio="0.18668832"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@4a1ece5d" orientation="256" selectedTabId="com.android.ide.eclipse.ddms.views.LogCatView" style="0">&#x0A;<fastViews>&#x0A;<view id="com.android.ide.eclipse.ddms.views.LogCatView" ratio="0.21915585"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@7a25afbe" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@6d21eb57" ratio="0.24132842" ratioLeft="327" ratioRight="1028" relationship="2" relative="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottomRight" ratio="0.80750406" ratioLeft="495" ratioRight="118" relationship="4" relative="org.eclipse.ui.internal.ViewStack@6d21eb57">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.pde.runtime.LogView" label="LabelNotFound"/>
+<page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.23280424" ratioLeft="308" ratioRight="1015" relationship="2" relative="org.eclipse.ui.internal.ViewStack@6d21eb57"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@426edba8" ratio="0.49952245" ratioLeft="523" ratioRight="524" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView:Console View #1" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@79d8806" ratio="0.49952245" ratioLeft="523" ratioRight="524" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@4a1ece5d" ratio="0.74899596" ratioLeft="373" ratioRight="125" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="bottomLeft" ratio="0.6933116" ratioLeft="425" ratioRight="188" relationship="4" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.android.ide.eclipse.ddms.Perspective" id="com.android.ide.eclipse.ddms.Perspective" label="DDMS"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<show_view_action id="com.android.ide.eclipse.ddms.views.DeviceView"/>
+<show_view_action id="com.android.ide.eclipse.ddms.views.FileExplorerView"/>
+<show_view_action id="com.android.ide.eclipse.ddms.views.HeapView"/>
+<show_view_action id="com.android.ide.eclipse.ddms.views.AllocTrackerView"/>
+<show_view_action id="com.android.ide.eclipse.ddms.views.LogCatView"/>
+<show_view_action id="com.android.ide.eclipse.ddms.views.ThreadView"/>
+<show_view_action id="com.android.ide.eclipse.ddms.views.NetworkStatsView"/>
+<show_view_action id="com.android.ide.eclipse.ddms.views.SysInfoView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.views.ResourceNavigator"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="16384" id="logcat" orientation="256" selectedTabId="com.android.ide.eclipse.ddms.views.LogCatView" style="0">
+<fastViews>
+<view id="com.android.ide.eclipse.ddms.views.LogCatView" ratio="0.96753246"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@271bef04" orientation="512" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
+<fastViews>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.29907265"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="131072" id="ddms-detail" orientation="256" selectedTabId="com.android.ide.eclipse.ddms.views.FileExplorerView" style="0">
+<fastViews>
+<view id="com.android.ide.eclipse.ddms.views.ThreadView" ratio="0.3"/>
+<view id="com.android.ide.eclipse.ddms.views.HeapView" ratio="0.3"/>
+<view id="com.android.ide.eclipse.ddms.views.AllocTrackerView" ratio="0.3"/>
+<view id="com.android.ide.eclipse.ddms.views.NetworkStatsView" ratio="0.3"/>
+<view id="com.android.ide.eclipse.ddms.views.FileExplorerView" ratio="0.2987013"/>
+<view id="com.android.ide.eclipse.ddms.views.SysInfoView" ratio="0.2987013"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow>
+<info folder="true" part="devices">
+<folder appearance="2" expanded="2">
+<page content="com.android.ide.eclipse.ddms.views.DeviceView:*" label="LabelNotFound"/>
+<page content="com.android.ide.eclipse.ddms.views.DeviceView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.74962294" ratioLeft="994" ratioRight="332" relationship="2" relative="devices">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="logcat" ratio="0.7987013" ratioLeft="492" ratioRight="124" relationship="4" relative="devices">
+<folder appearance="2" expanded="2">
+<page content="com.android.ide.eclipse.ddms.views.LogCatView:*" label="LabelNotFound"/>
+<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.27343145" ratioLeft="353" ratioRight="938" relationship="2" relative="devices"/>
+<info folder="true" part="ddms-detail" ratio="0.4994618" ratioLeft="464" ratioRight="465" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="com.android.ide.eclipse.ddms.views.ThreadView:*" label="LabelNotFound"/>
+<page content="com.android.ide.eclipse.ddms.views.ThreadView" label="LabelNotFound"/>
+<page content="com.android.ide.eclipse.ddms.views.HeapView" label="LabelNotFound"/>
+<page content="com.android.ide.eclipse.ddms.views.AllocTrackerView" label="LabelNotFound"/>
+<page content="com.android.ide.eclipse.ddms.views.NetworkStatsView" label="LabelNotFound"/>
+<page content="com.android.ide.eclipse.ddms.views.FileExplorerView" label="LabelNotFound"/>
+<page content="com.android.ide.eclipse.ddms.views.EmulatorControlView" label="LabelNotFound"/>
+<page content="com.android.ide.eclipse.ddms.views.SysInfoView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@271bef04" ratio="0.49953052" ratioLeft="532" ratioRight="533" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@7a260a82" ratio="0.5" ratioLeft="647" ratioRight="647" relationship="2" relative="devices">
+<folder activePageID="org.eclipse.ui.views.ResourceNavigator" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ResourceNavigator" label="Navigator"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Salma/src/com/med/salma/MedicineRefillsActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Salma/src/com/med/salma/NewReminderActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Salma/src/com/med/salma/ReminderActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Salma/res/layout/refills_rows.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Salma/src/com/med/salma/DoctorsListActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Salma/src/com/med/salma/SalmaDatabaseAdapter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Salma/src/com/med/salma/Table_AdherenceTable.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Salma/src/com/med/salma/Table_RefillTable.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Salma/src/com/med/salma/RefillAlarmService.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Salma/src/com/med/salma/VideoCaptureActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Salma/src/com/med/salma/VideoFilesAdapter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Salma/src/com/med/salma/VideoReportsActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Salma/src/com/med/salma/MedicineRefillsActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Salma/res/layout/activity_medicine_refills.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Salma/res/layout/refills_rows.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Salma/src/com/med/salma/SalmaDatabaseAdapter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Salma/res/drawable-hdpi/button_background.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Salma/res/drawable-hdpi/save_background.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Salma/src/com/med/salma/VideoCaptureActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Salma/src/com/med/salma/VideoFilesAdapter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Salma/src/com/med/salma/VideoReportsActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Salma/src/com/med/salma/VideoCaptureActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Salma/src/com/med/salma/RefillAlarmService.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Salma/src/com/med/salma/AlarmService.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Salma/src/com/med/salma/VideoViewActivity.java"/>
+</editors>
+<item historyLabel="NewReminderActivity.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ReminderActivity.java" index="2">
+<position info="not_deleted" x="863" y="0"/>
+</item>
+<item historyLabel="MedicineRefillsActivity.java" index="0">
+<position info="not_deleted" x="2286" y="0"/>
+</item>
+<item historyLabel="refills_rows.xml" index="3"/>
+<item historyLabel="MedicineRefillsActivity.java" index="0">
+<position info="not_deleted" x="2286" y="0"/>
+</item>
+<item historyLabel="DoctorsListActivity.java" index="4">
+<position info="not_deleted" x="1590" y="0"/>
+</item>
+<item historyLabel="MedicineRefillsActivity.java" index="0">
+<position info="not_deleted" x="2200" y="0"/>
+</item>
+<item historyLabel="SalmaDatabaseAdapter.java" index="5">
+<position info="not_deleted" x="10250" y="0"/>
+</item>
+<item historyLabel="MedicineRefillsActivity.java" index="0">
+<position info="not_deleted" x="2200" y="0"/>
+</item>
+<item historyLabel="SalmaDatabaseAdapter.java" index="5">
+<position info="not_deleted" x="4779" y="0"/>
+</item>
+<item historyLabel="Table_AdherenceTable.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Table_RefillTable.java" index="7">
+<position info="not_deleted" x="287" y="0"/>
+</item>
+<item historyLabel="MedicineRefillsActivity.java" index="0">
+<position info="not_deleted" x="3241" y="0"/>
+</item>
+<item historyLabel="RefillAlarmService.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="VideoCaptureActivity.java" index="9">
+<position info="not_deleted" x="3170" y="0"/>
+</item>
+<item historyLabel="VideoFilesAdapter.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="VideoReportsActivity.java" index="11">
+<position info="not_deleted" x="2964" y="0"/>
+</item>
+<item historyLabel="VideoCaptureActivity.java" index="9">
+<position info="not_deleted" x="3170" y="0"/>
+</item>
+<item historyLabel="MedicineRefillsActivity.java" index="12">
+<position info="not_deleted" x="1884" y="0"/>
+</item>
+<item historyLabel="activity_medicine_refills.xml" index="13"/>
+<item historyLabel="VideoCaptureActivity.java" index="9">
+<position info="not_deleted" x="3425" y="0"/>
+</item>
+<item historyLabel="VideoReportsActivity.java" index="11">
+<position info="not_deleted" x="2964" y="0"/>
+</item>
+<item historyLabel="activity_medicine_refills.xml" index="13"/>
+<item historyLabel="MedicineRefillsActivity.java" index="12">
+<position info="not_deleted" x="1884" y="0"/>
+</item>
+<item historyLabel="MedicineRefillsActivity.java" index="12">
+<position/>
+</item>
+<item historyLabel="MedicineRefillsActivity.java" index="12">
+<position/>
+</item>
+<item historyLabel="MedicineRefillsActivity.java" index="12">
+<position/>
+</item>
+<item historyLabel="MedicineRefillsActivity.java" index="12">
+<position/>
+</item>
+<item historyLabel="refills_rows.xml" index="14"/>
+<item historyLabel="MedicineRefillsActivity.java" index="12">
+<position/>
+</item>
+<item historyLabel="SalmaDatabaseAdapter.java" index="15">
+<position info="not_deleted" x="11076" y="0"/>
+</item>
+<item historyLabel="MedicineRefillsActivity.java" index="12">
+<position info="not_deleted" x="2943" y="0"/>
+</item>
+<item historyLabel="activity_medicine_refills.xml" index="13"/>
+<item historyLabel="MedicineRefillsActivity.java" index="12">
+<position info="not_deleted" x="4537" y="0"/>
+</item>
+<item historyLabel="activity_medicine_refills.xml" index="13"/>
+<item historyLabel="MedicineRefillsActivity.java" index="12">
+<position info="not_deleted" x="4824" y="0"/>
+</item>
+<item historyLabel="button_background.xml" index="16"/>
+<item historyLabel="save_background.xml" index="17"/>
+<item historyLabel="activity_medicine_refills.xml" index="13"/>
+<item historyLabel="MedicineRefillsActivity.java" index="12">
+<position info="not_deleted" x="4824" y="0"/>
+</item>
+<item historyLabel="VideoCaptureActivity.java" index="18">
+<position info="not_deleted" x="3389" y="0"/>
+</item>
+<item historyLabel="VideoFilesAdapter.java" index="19">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="VideoReportsActivity.java" index="20">
+<position info="not_deleted" x="2928" y="0"/>
+</item>
+<item historyLabel="VideoCaptureActivity.java" index="21">
+<position info="not_deleted" x="5272" y="0"/>
+</item>
+<item historyLabel="RefillAlarmService.java" index="22">
+<position info="not_deleted" x="1335" y="0"/>
+</item>
+<item historyLabel="AlarmService.java" index="23">
+<position info="not_deleted" x="1440" y="0"/>
+</item>
+<item historyLabel="VideoCaptureActivity.java" index="21">
+<position info="not_deleted" x="4062" y="0"/>
+</item>
+<item historyLabel="VideoCaptureActivity.java" index="21">
+<position info="not_deleted" x="4319" y="0"/>
+</item>
+<item historyLabel="VideoCaptureActivity.java" index="21">
+<position info="not_deleted" x="3163" y="0"/>
+</item>
+<item active="true" historyLabel="VideoViewActivity.java" index="24">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="logcat"/>
+<trimItem IMemento.internal.id="devices"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="ddms-detail"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@271bef04"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VideoViewActivity.java" tooltip="Salma/src/com/med/salma/VideoViewActivity.java">
+<persistable path="/Salma/src/com/med/salma/VideoViewActivity.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AlarmService.java" tooltip="Salma/src/com/med/salma/AlarmService.java">
+<persistable path="/Salma/src/com/med/salma/AlarmService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="save_background.xml" tooltip="Salma/res/drawable-hdpi/save_background.xml">
+<persistable path="/Salma/res/drawable-hdpi/save_background.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="button_background.xml" tooltip="Salma/res/drawable-hdpi/button_background.xml">
+<persistable path="/Salma/res/drawable-hdpi/button_background.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_medicine_refills.xml" tooltip="Salma/res/layout/activity_medicine_refills.xml">
+<persistable path="/Salma/res/layout/activity_medicine_refills.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VideoReportsActivity.java" tooltip="Salma/src/com/med/salma/VideoReportsActivity.java">
+<persistable path="/Salma/src/com/med/salma/VideoReportsActivity.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VideoFilesAdapter.java" tooltip="Salma/src/com/med/salma/VideoFilesAdapter.java">
+<persistable path="/Salma/src/com/med/salma/VideoFilesAdapter.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VideoCaptureActivity.java" tooltip="Salma/src/com/med/salma/VideoCaptureActivity.java">
+<persistable path="/Salma/src/com/med/salma/VideoCaptureActivity.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RefillAlarmService.java" tooltip="Salma/src/com/med/salma/RefillAlarmService.java">
+<persistable path="/Salma/src/com/med/salma/RefillAlarmService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Table_RefillTable.java" tooltip="Salma/src/com/med/salma/Table_RefillTable.java">
+<persistable path="/Salma/src/com/med/salma/Table_RefillTable.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Table_AdherenceTable.java" tooltip="Salma/src/com/med/salma/Table_AdherenceTable.java">
+<persistable path="/Salma/src/com/med/salma/Table_AdherenceTable.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SalmaDatabaseAdapter.java" tooltip="Salma/src/com/med/salma/SalmaDatabaseAdapter.java">
+<persistable path="/Salma/src/com/med/salma/SalmaDatabaseAdapter.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DoctorsListActivity.java" tooltip="Salma/src/com/med/salma/DoctorsListActivity.java">
+<persistable path="/Salma/src/com/med/salma/DoctorsListActivity.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="refills_rows.xml" tooltip="Salma/res/layout/refills_rows.xml">
+<persistable path="/Salma/res/layout/refills_rows.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ReminderActivity.java" tooltip="Salma/src/com/med/salma/ReminderActivity.java">
+<persistable path="/Salma/src/com/med/salma/ReminderActivity.java"/>
+</file>
+</mruList>
+</workbench>

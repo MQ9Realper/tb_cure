@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="296" key="DIALOG_WIDTH"/>
+		<item value="98" key="DIALOG_Y_ORIGIN"/>
+		<item value="723" key="DIALOG_X_ORIGIN"/>
+		<item value="412" key="DIALOG_HEIGHT"/>
+		<item value="1|Ubuntu|9.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="media_recorder" key="selection"/>
+		<list key="findhistory">
+			<item value="mediarecorder"/>
+			<item value="8pt"/>
+			<item value="6pt"/>
+			<item value="Salma"/>
+			<item value="private"/>
+			<item value="800080"/>
+			<item value="Patient"/>
+			<item value="30dp"/>
+		</list>
+		<list key="replacehistory">
+			<item value="media_recorder"/>
+			<item value="7pt"/>
+			<item value="8pt"/>
+			<item value="TB Cure"/>
+			<item value="16sp"/>
+			<item value="public"/>
+			<item value="2f2f4f"/>
+			<item value="Doctor"/>
+		</list>
+	</section>
+</section>

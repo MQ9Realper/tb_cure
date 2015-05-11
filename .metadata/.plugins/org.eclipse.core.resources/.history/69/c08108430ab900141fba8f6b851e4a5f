@@ -1,0 +1,60 @@
+package com.med.salma;
+
+import com.med.salma.database.SalmaDatabaseAdapter;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.RadioGroup;
+import android.widget.Toast;
+
+public class DoctorBioInfoActivity extends Activity {
+	// Editables Declaration
+	EditText txtFirstName;
+	EditText txtSecondName;
+	EditText txtSpecialty;
+	EditText txtUserName;
+	EditText txtEmailAddress;
+	EditText txtPassword;
+	RadioGroup rdGender;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_doctor_bio_info);
+
+		txtFirstName = (EditText) findViewById(R.id.txtDoctorFirstName);
+		txtSecondName = (EditText) findViewById(R.id.txtDoctorSecondName);
+		txtSpecialty = (EditText) findViewById(R.id.txtDoctorPractice);
+		txtUserName = (EditText) findViewById(R.id.txtDoctorUsername);
+		txtEmailAddress = (EditText) findViewById(R.id.txtDoctorEmail);
+		txtPassword = (EditText) findViewById(R.id.txtDoctorPassword);
+		rdGender = (RadioGroup) findViewById(R.id.radioGroup);
+		
+	}
+
+	// Method for adding new doctors
+	public void addDoctor(View view) {
+		// toString conversions
+		String first_name = txtFirstName.getText().toString();
+		String second_name = txtSecondName.getText().toString();
+		String specialty = txtSpecialty.getText().toString();
+		String username = txtUserName.getText().toString();
+		String email_address = txtEmailAddress.getText().toString();
+		String password = txtPassword.getText().toString();
+		int gender = rdGender.getCheckedRadioButtonId();
+		
+		SalmaDatabaseAdapter salmaDB = new SalmaDatabaseAdapter(this);
+		salmaDB.addDoctor(first_name, second_name, specialty,
+				String.valueOf(gender), username, email_address, password);
+		Toast.makeText(this, "Dr. " + first_name + " Has Been Successfully Registered!",
+				Toast.LENGTH_LONG).show();
+		
+		Intent doctorReports = new Intent(this, DoctorReportsActivity.class);
+		doctorReports.putExtra("Welcome", first_name);
+		startActivity(doctorReports);
+	}
+
+}
